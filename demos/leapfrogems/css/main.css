@@ -49,7 +49,12 @@ body
 
 #mainmenu
 {
-	background:white url(bg.gif) repeat-x left top;
+        height:30px;
+	width:1000px;
+	margin:auto;
+	background-color:transparent;
+	text-align:left;
+	/*background:white url(bg.gif) repeat-x left top;*/
 }
 
 #mainmenu ul
@@ -67,16 +72,20 @@ body
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:12px;
-	font-weight:bold;
+	font-size:14px;
 	text-decoration:none;
 	padding:5px 8px;
 }
 
-#mainmenu ul li a:hover, #mainmenu ul li.active a
+#mainmenu ul li.active a {
+    font-weight: bold;
+}
+
+#mainmenu ul li a:hover
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
+	/*color: #6399cd;*/
+        font-weight: bold;
+	background-color:#800000;
 	text-decoration:none;
 }
 
